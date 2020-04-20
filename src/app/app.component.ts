@@ -10,27 +10,27 @@ import { OverlayContainer } from '@angular/cdk/overlay';
 export class AppComponent implements OnInit {
   title = 'prototype';
   theme = localStorage.getItem('theme');
+
+  body = document.body;
   constructor(public overlayContainer: OverlayContainer) {}
   lightActive = true;
   darkActive = false;
   @HostBinding('class') componentCssClass;
-  ngOnInit() {}
+  ngOnInit() {
+    document.body.classList.add(this.theme);
+  }
   changeTheme(theme) {
     this.theme = theme;
-    console.log(this.theme);
+    this.body.classList.add(this.theme);
     this.componentCssClass = theme;
-    if (theme == 'light') {
-      this.overlayContainer
-        .getContainerElement()
-        .classList.replace('dark', 'light');
+    if (theme === 'light') {
+      this.body.classList.replace('dark', 'light');
       localStorage.setItem('theme', 'light');
     } else {
-      this.overlayContainer
-        .getContainerElement()
-        .classList.replace('light', 'dark');
+      this.body.classList.replace('light', 'dark');
       localStorage.setItem('theme', 'dark');
     }
-    let isLightTheme: boolean = theme == 'light';
+    const isLightTheme: boolean = theme === 'light';
     this.darkActive = isLightTheme ? true : false;
     this.lightActive = isLightTheme ? false : true;
   }

@@ -1,3 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-body);
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
+  background-image: var(--bg-patron);
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--gray5);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--purple0);
+}
 :root {
   font-size: 16px;
   font-family: "Open Sans";
@@ -9,41 +28,47 @@
   --gray5: #2a2e35;
   --gray6: #12181b;
   --gray7: #000000;
-  --orange: #ee6c4d;
+  --orange0: #ffd3b6;
+  --orange1: #f79071;
+  --orange2: #fa744f;
+  --orange3: #ee6c4d;
+  --orange4: #ff6464;
+  --orange5: #db3056;
+  --orange6: #851d41;
+  --green0: #16817a;
+  --green1: #024249;
+  --blue: #0779e4;
+  --purple0: #6649b8;
+  --purple1: #af8baf;
+  --yellow: #f0a500;
+  --smoke: #f1f9f9;
   --transition-speed: 600ms;
   --transition-speed-2: 100ms;
 }
-.light {
+.dark {
   --text-primary: var(--gray2);
   --text-secondary: var(--gray1);
   --bg-primary: var(--gray5);
   --bg-secondary: var(--gray6);
+  --bg-hover: var(--purple1);
+  --bg-body: var(--gray3);
+  --bg-icon: var(--purple0);
+  --bg-nav: var(--gray5);
+  --bg-patron: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236649b8' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   transition: var(--transition-speed);
 }
 
-.dark {
+.light {
   --text-primary: var(--gray5);
   --text-secondary: var(--gray6);
-  --bg-primary: var(--gray0);
-  --bg-secondary: var(--gray1);
+  --bg-primary: var(--gray1);
+  --bg-secondary: var(--gray2);
+  --bg-hover: var(--orange0);
+  --bg-body: var(--gray1);
+  --bg-icon: var(--orange3);
+  --bg-nav: var(--smoke);
+  --bg-patron: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f79071' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   transition: var(--transition-speed);
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body::-webkit-scrollbar {
-  width: 0.25rem;
-}
-
-body::-webkit-scrollbar-track {
-  background: #1e1e24;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #6649b8;
 }
 
 main {
@@ -53,7 +78,7 @@ main {
 
 .navbar {
   position: fixed;
-  background-color: var(--bg-primary);
+  background-color: var(--bg-nav);
   transition: width 600ms ease;
 }
 
@@ -87,7 +112,7 @@ main {
 
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
-  background: var(--bg-secondary);
+  background: var(--bg-hover);
   color: var(--text-secondary);
 }
 
@@ -112,7 +137,15 @@ main {
 }
 
 .nav-link:hover mat-icon {
-  color: var(--orange);
+  color: var(--bg-icon);
+  transition: var(--transition-speed);
+}
+.nav-link:hover .sun {
+  color: var(--yellow);
+  transition: var(--transition-speed);
+}
+.nav-link:hover .moon {
+  color: var(--blue);
   transition: var(--transition-speed);
 }
 
@@ -183,7 +216,6 @@ main {
 
   .navbar:hover .link-text {
     display: inline;
-    transition: var(--transition-speed) !important;
   }
 
   .navbar:hover .logo mat-icon {

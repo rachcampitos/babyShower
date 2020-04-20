@@ -38,20 +38,20 @@
     <li class="nav-item" id="themeButton">
       <a
         class="nav-link"
-        (click)="changeTheme('light')"
-        [ngClass]="{ 'active-light': darkActive }"
+        (click)="changeTheme('dark')"
+        [ngClass]="{ 'active-dark': lightActive }"
       >
-        <mat-icon class="theme-icon">
+        <mat-icon class="moon">
           brightness_2
         </mat-icon>
         <span class="link-text">Oscuro</span>
       </a>
       <a
         class="nav-link"
-        (click)="changeTheme('dark')"
-        [ngClass]="{ 'active-dark': lightActive }"
+        (click)="changeTheme('light')"
+        [ngClass]="{ 'active-light': darkActive }"
       >
-        <mat-icon class="theme-icon">
+        <mat-icon class="sun">
           brightness_5
         </mat-icon>
         <span class="link-text">Claro</span>

@@ -40,8 +40,8 @@ body::-webkit-scrollbar-thumb {
   --blue: #0779e4;
   --purple0: #6649b8;
   --purple1: #af8baf;
-  --yellow: #f0a500;
-  --smoke: #f1f9f9;
+  --yellow: #f3c623;
+  --smoke: #ebe6e6;
   --transition-speed: 600ms;
   --transition-speed-2: 100ms;
 }
@@ -130,8 +130,8 @@ main {
   margin: 0 1.5rem;
 }
 .nav-link mat-icon {
-  width: 2rem;
-  min-width: 2rem;
+  width: 24px;
+  height: 24px;
   margin: 0 1.5rem 0 25px;
   transition: var(--transition-speed);
 }
@@ -142,10 +142,12 @@ main {
 }
 .nav-link:hover .sun {
   color: var(--yellow);
+  transform: rotate(-90deg);
   transition: var(--transition-speed);
 }
 .nav-link:hover .moon {
   color: var(--blue);
+  transform: rotateY(-180deg);
   transition: var(--transition-speed);
 }
 

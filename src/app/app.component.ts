@@ -9,7 +9,7 @@ import { OverlayContainer } from '@angular/cdk/overlay';
 })
 export class AppComponent implements OnInit {
   title = 'prototype';
-  theme = localStorage.getItem('theme');
+  theme = localStorage.getItem('theme') || 'light';
 
   body = document.body;
   constructor(public overlayContainer: OverlayContainer) {}
@@ -18,6 +18,7 @@ export class AppComponent implements OnInit {
   @HostBinding('class') componentCssClass;
   ngOnInit() {
     document.body.classList.add(this.theme);
+    this.changeTheme(this.theme);
   }
   changeTheme(theme) {
     this.theme = theme;

@@ -176,8 +176,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       decls: 35,
-      vars: 2,
-      consts: [["id", "hero", 1, "hero"], ["alt", "", 1, "flags", 3, "src"], [1, "container"], [1, "main-message"], ["data-aos", "fade-up", "data-aos-duration", "1000"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "fecha"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "hora"], [1, "lugar"], ["data-aos", "fade-up", "data-aos-duration", "1000", "alt", "", 1, "meet", 3, "src"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "link-video"], ["href", "https://meet.google.com/tsr-tosk-azw", "target", "_blank", 1, "btn", "videollamada"], [1, "live"], [1, "icon", "ion-ios-videocam"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "enlace"], ["href", "https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do", "target", "_blank", 1, "btn", "regalo"], ["src", "../assets/gift.svg", "alt", "", 1, "gift"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "mensaje"]],
+      vars: 3,
+      consts: [["id", "hero", 1, "hero"], ["alt", "", 1, "flags", 3, "src"], [1, "container"], [1, "main-message"], ["data-aos", "fade-up", "data-aos-duration", "1000"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "fecha"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "hora"], [1, "lugar"], ["data-aos", "fade-up", "data-aos-duration", "1000", "alt", "", 1, "meet", 3, "src"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "link-video"], ["href", "https://meet.google.com/tsr-tosk-azw", "target", "_blank", 1, "btn", "videollamada"], [1, "live"], [1, "icon", "ion-ios-videocam"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "enlace"], ["href", "https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do", "target", "_blank", 1, "btn", "regalo"], ["alt", "", 1, "gift", 3, "src"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "mensaje"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -293,6 +293,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "assets/meet.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "assets/gift.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         }
       },
       directives: [_balloon_balloon_component__WEBPACK_IMPORTED_MODULE_4__["BalloonComponent"], _cone_cone_component__WEBPACK_IMPORTED_MODULE_5__["ConeComponent"], _pointer_pointer_component__WEBPACK_IMPORTED_MODULE_6__["PointerComponent"]],

@@ -1,6 +1,7 @@
-import { Component, OnInit, HostBinding } from '@angular/core';
+import { Component, OnInit, HostBinding, HostListener } from '@angular/core';
 import * as AOS from 'aos';
 import { OverlayContainer } from '@angular/cdk/overlay';
+import { Hero1Component } from './hero1/hero1.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,6 +9,7 @@ import { OverlayContainer } from '@angular/cdk/overlay';
 })
 export class AppComponent implements OnInit {
   title = 'prototype';
+  parent;
   theme = localStorage.getItem('theme') || 'light';
 
   body = document.body;
@@ -15,22 +17,10 @@ export class AppComponent implements OnInit {
   lightActive = true;
   darkActive = false;
   @HostBinding('class') componentCssClass;
+  @HostListener('document:click', ['$event'])
   ngOnInit() {
     AOS.init();
     document.body.classList.add(this.theme);
-    window.addEventListener('scroll', () => {
-      const header = document.querySelector('header');
-      header.classList.toggle('sticky', window.scrollY > 0);
-    });
-
-    const selectElement = (s) => document.querySelector(s);
-    // Open Menu
-    selectElement('.open').addEventListener('click', () => {
-      selectElement('.nav-list').classList.add('active');
-    });
-    selectElement('.close').addEventListener('click', () => {
-      selectElement('.nav-list').classList.remove('active');
-    });
     // Top top button
     const toTop = document.querySelector('.to-top');
     window.addEventListener('scroll', () => {
@@ -40,6 +30,7 @@ export class AppComponent implements OnInit {
     });
     this.changeTheme(this.theme);
   }
+
   changeTheme(theme) {
     this.theme = theme;
     this.body.classList.add(this.theme);
@@ -55,4 +46,26 @@ export class AppComponent implements OnInit {
     this.darkActive = isLightTheme ? true : false;
     this.lightActive = isLightTheme ? false : true;
   }
+
+  toggleMenu() {
+    const action = document.querySelector('.action');
+    action.classList.toggle('active');
+  }
+  /*
+  @HostListener('document:click', ['$event'])
+  clickout(event) {
+    if (
+      !(
+        event.target &&
+        event.target.className &&
+        event.target.className.indexOf
+      )
+    ) {
+      return;
+    }
+
+    if (event.target.className.indexOf('.action') === -1) {
+      this.toggleMenu();
+    }
+  } */
 }

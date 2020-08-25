@@ -1,0 +1,72 @@
+#line-1,
+#line-2,
+#line-3,
+#line-4,
+#line-5,
+#line-6,
+#line-7,
+#line-8,
+#line-9,
+#line-10,
+#line-11 {
+  animation: line-1 1s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#cone-1 {
+  animation: cone-1 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#ribbon-1,
+#ribbon-2,
+#ribbon-3 {
+  animation: cone-1 3s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes line-1 {
+  0% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes cone-1 {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+@media only screen and (max-width: 411px) {
+  svg {
+    position: absolute;
+    width: 345px;
+    top: 50%;
+    height: 430px;
+    right: 34%;
+    opacity: 0.3;
+  }
+}
+@media only screen and (max-width: 375px) {
+  svg {
+    position: absolute;
+    width: 345px;
+    top: 50%;
+    height: 430px;
+    right: 34%;
+    opacity: 0.3;
+  }
+}

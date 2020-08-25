@@ -1,0 +1,58 @@
+#balloon-1 {
+  animation: balloon-1 15s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#balloon-2 {
+  animation: balloon-2 15s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes balloon-1 {
+  0% {
+    transform: translateY(40%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(40%);
+    opacity: 1;
+  }
+}
+@keyframes balloon-2 {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(40%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 411px) {
+  svg {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 10%;
+    left: 30%;
+    opacity: 0.3;
+  }
+}
+@media only screen and (max-width: 375px) {
+  svg {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 10%;
+    left: 30%;
+    opacity: 0.3;
+  }
+}

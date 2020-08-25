@@ -1,0 +1,153 @@
+svg {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  width: 750px;
+  height: 700px;
+}
+#heart-1 {
+  animation: heart-1 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#heart-2 {
+  animation: heart-2 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#hand-1 {
+  animation: hand-1 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#hand-2 {
+  animation: hand-2 1s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#line-1 {
+  animation: line-1 2.3s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#line-2 {
+  animation: line-2 2.2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#line-3 {
+  animation: line-3 2.4s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes line-1 {
+  0% {
+    transform: translateY(-40%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-40%);
+    opacity: 1;
+  }
+}
+@keyframes line-2 {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-80%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes line-3 {
+  0% {
+    transform: translateY(-20%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20%);
+    opacity: 1;
+  }
+}
+@keyframes hand-1 {
+  0% {
+    transform: rotate(10deg) translateX(-5%) translateY(5%);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg) translateX(-5%) translateY(5%);
+  }
+}
+@keyframes hand-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg) translateX(15%);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes heart-1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes heart-2 {
+  0% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  svg {
+    right: 15%;
+    top: 10%;
+    width: 500px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  svg {
+    left: 15%;
+    top: 10%;
+    width: 300px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  svg {
+    left: 23%;
+    top: 69%;
+    width: 200px;
+    height: 250px;
+  }
+}

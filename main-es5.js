@@ -288,11 +288,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "../assets/flags.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "assets/flags.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](19);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "../assets/meet.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "assets/meet.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         }
       },
       directives: [_balloon_balloon_component__WEBPACK_IMPORTED_MODULE_4__["BalloonComponent"], _cone_cone_component__WEBPACK_IMPORTED_MODULE_5__["ConeComponent"], _pointer_pointer_component__WEBPACK_IMPORTED_MODULE_6__["PointerComponent"]],

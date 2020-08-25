@@ -36,6 +36,16 @@
     opacity: 1;
   }
 }
+@media only screen and (max-width: 720px) {
+  svg {
+    position: absolute;
+    width: 505px;
+    height: 698px;
+    top: 6%;
+    left: 39%;
+    opacity: 0.3;
+  }
+}
 @media only screen and (max-width: 411px) {
   svg {
     position: absolute;

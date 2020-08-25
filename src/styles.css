@@ -181,19 +181,130 @@ h5 {
     transition: background 650ms ease-in-out;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 720px) {
+  body {
+    background: #e5ea93;
+  }
+
+  .container {
+    padding: 0 2.5rem;
+    position: absolute;
+    bottom: 40%;
+    left: 1%;
+  }
+  .main-message {
+    font-size: 12px;
+  }
+
+  .main-message h3 {
+    font-size: 1.9rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .main-message h1 {
+    font-size: 5.6rem;
+    text-align: center;
+  }
+  .main-message p {
+    text-transform: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .enlace {
+    font-size: 2rem !important;
+    font-weight: bold;
+  }
+  .mensaje {
+    font-size: 25px !important;
+    font-weight: bold;
+    position: absolute;
+    top: 126%;
+  }
   .hero {
     position: relative;
-    background: url(./assets/wave.svg);
+    background: url(./assets/wave-2.svg);
     color: #fff;
     text-align: justify;
     overflow: hidden;
     background-size: cover;
     width: 100%;
-    height: 0;
-    padding-bottom: calc(60% * 3 / 1);
+    height: 100vh;
+    padding-bottom: calc(60% * 5 / 2);
     transition: var(--transition-speed);
     transition: background 650ms ease-in-out;
+  }
+  .btn {
+    font-size: 12px;
+    margin: 10px 0 24px 100px;
+    padding: 0.5rem 1rem;
+  }
+  .btn i {
+    font-size: 45px;
+  }
+  h5 {
+    font-size: 2rem;
+  }
+
+  .flags {
+    width: 705px !important;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+  }
+  .live {
+    font-size: 48px !important;
+    color: white;
+    background: #e7305b;
+    padding: 10px 10px;
+    position: absolute;
+    border-radius: 5px;
+    left: 9%;
+    width: 515px;
+  }
+  .live i {
+    margin: 0 28px 0 0;
+  }
+  .videollamada {
+    margin: 10px 0 24px 40px !important;
+  }
+  .link-video {
+    margin-bottom: 80px;
+  }
+  .gift {
+    width: 256px;
+    position: absolute;
+    left: 30%;
+    top: 100%;
+  }
+  .fecha {
+    font-size: 95px !important;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .hora {
+    font-size: 95px !important;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .lugar {
+    display: flex;
+    margin: 35px 0 0 10px;
+  }
+  .lugar h3 {
+    margin-left: 30px;
+  }
+  .lugar h2 {
+    font-size: 50px;
+    padding: 4px;
+    margin-left: 33px;
+  }
+  .meet {
+    width: 30px;
+  }
+  .regalo {
+    margin-top: 50px;
   }
 }
 @media only screen and (max-width: 411px) {
@@ -330,6 +441,7 @@ h5 {
     margin-top: 50px;
   }
 }
+
 @media only screen and (max-width: 375px) {
   body {
     background: #e5ea93;

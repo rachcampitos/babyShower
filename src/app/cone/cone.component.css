@@ -50,6 +50,16 @@
     transform: rotate(10deg);
   }
 }
+@media only screen and (max-width: 720px) {
+  svg {
+    position: absolute;
+    width: 586px;
+    top: 50%;
+    height: 620px;
+    right: 39%;
+    opacity: 0.3;
+  }
+}
 @media only screen and (max-width: 411px) {
   svg {
     position: absolute;

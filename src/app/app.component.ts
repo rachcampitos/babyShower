@@ -2,6 +2,7 @@ import { Component, OnInit, HostBinding, HostListener } from '@angular/core';
 import * as AOS from 'aos';
 import { OverlayContainer } from '@angular/cdk/overlay';
 import { Hero1Component } from './hero1/hero1.component';
+import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,11 +10,14 @@ import { Hero1Component } from './hero1/hero1.component';
 })
 export class AppComponent implements OnInit {
   title = 'prototype';
+  baseURL: string;
   parent;
   theme = localStorage.getItem('theme') || 'light';
 
   body = document.body;
-  constructor(public overlayContainer: OverlayContainer) {}
+  constructor(public overlayContainer: OverlayContainer) {
+    this.baseURL = environment.baseURL;
+  }
   lightActive = true;
   darkActive = false;
   @HostBinding('class') componentCssClass;

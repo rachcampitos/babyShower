@@ -73,25 +73,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var src_environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! src/environments/environment */
+    "./src/environments/environment.ts");
+    /* harmony import */
+
+
+    var _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/cdk/overlay */
     "./node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/overlay.js");
     /* harmony import */
 
 
-    var _balloon_balloon_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _balloon_balloon_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./balloon/balloon.component */
     "./src/app/balloon/balloon.component.ts");
     /* harmony import */
 
 
-    var _cone_cone_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _cone_cone_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./cone/cone.component */
     "./src/app/cone/cone.component.ts");
     /* harmony import */
 
 
-    var _pointer_pointer_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _pointer_pointer_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./pointer/pointer.component */
     "./src/app/pointer/pointer.component.ts");
 
@@ -105,6 +111,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.body = document.body;
         this.lightActive = true;
         this.darkActive = false;
+        this.baseURL = src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].baseURL;
       }
 
       _createClass(AppComponent, [{
@@ -150,7 +157,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     }();
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
-      return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_2__["OverlayContainer"]));
+      return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_3__["OverlayContainer"]));
     };
 
     AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
@@ -169,8 +176,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       decls: 35,
-      vars: 0,
-      consts: [["id", "hero", 1, "hero"], ["src", "../assets/flags.svg", "alt", "", 1, "flags"], [1, "container"], [1, "main-message"], ["data-aos", "fade-up", "data-aos-duration", "1000"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "fecha"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "hora"], [1, "lugar"], ["data-aos", "fade-up", "data-aos-duration", "1000", "src", "../assets/meet.svg", "alt", "", 1, "meet"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "link-video"], ["href", "https://meet.google.com/tsr-tosk-azw", "target", "_blank", 1, "btn", "videollamada"], [1, "live"], [1, "icon", "ion-ios-videocam"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "enlace"], ["href", "https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do", "target", "_blank", 1, "btn", "regalo"], ["src", "../assets/gift.svg", "alt", "", 1, "gift"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "mensaje"]],
+      vars: 2,
+      consts: [["id", "hero", 1, "hero"], ["alt", "", 1, "flags", 3, "src"], [1, "container"], [1, "main-message"], ["data-aos", "fade-up", "data-aos-duration", "1000"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "fecha"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "hora"], [1, "lugar"], ["data-aos", "fade-up", "data-aos-duration", "1000", "alt", "", 1, "meet", 3, "src"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "link-video"], ["href", "https://meet.google.com/tsr-tosk-azw", "target", "_blank", 1, "btn", "videollamada"], [1, "live"], [1, "icon", "ion-ios-videocam"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "enlace"], ["href", "https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do", "target", "_blank", 1, "btn", "regalo"], ["src", "../assets/gift.svg", "alt", "", 1, "gift"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "mensaje"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -277,8 +284,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "../assets/flags.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "../assets/meet.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        }
       },
-      directives: [_balloon_balloon_component__WEBPACK_IMPORTED_MODULE_3__["BalloonComponent"], _cone_cone_component__WEBPACK_IMPORTED_MODULE_4__["ConeComponent"], _pointer_pointer_component__WEBPACK_IMPORTED_MODULE_5__["PointerComponent"]],
+      directives: [_balloon_balloon_component__WEBPACK_IMPORTED_MODULE_4__["BalloonComponent"], _cone_cone_component__WEBPACK_IMPORTED_MODULE_5__["ConeComponent"], _pointer_pointer_component__WEBPACK_IMPORTED_MODULE_6__["PointerComponent"]],
       styles: [".active-light[_ngcontent-%COMP%] {\n  display: none;\n}\n.active-dark[_ngcontent-%COMP%] {\n  display: none;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0FBQ2Y7QUFDQTtFQUNFLGFBQWE7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFjdGl2ZS1saWdodCB7XG4gIGRpc3BsYXk6IG5vbmU7XG59XG4uYWN0aXZlLWRhcmsge1xuICBkaXNwbGF5OiBub25lO1xufVxuIl19 */"]
     });
     /*@__PURE__*/
@@ -293,7 +310,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }]
       }], function () {
         return [{
-          type: _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_2__["OverlayContainer"]
+          type: _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_3__["OverlayContainer"]
         }];
       }, {
         componentCssClass: [{
@@ -1082,7 +1099,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     var environment = {
-      production: false
+      production: false,
+      baseURL: 'https://rachcampitos.github.io/babyShower/'
     };
     /*
      * For easier debugging in development mode, you can import the following file

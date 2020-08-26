@@ -18,6 +18,22 @@
     opacity: 1;
   }
 }
+@media only screen and (max-width: 1080px) {
+  svg {
+    position: absolute;
+    width: 120px;
+    top: 55%;
+    right: 44%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  svg {
+    position: absolute;
+    width: 95px;
+    top: 51%;
+    right: 42%;
+  }
+}
 @media only screen and (max-width: 720px) {
   svg {
     position: absolute;

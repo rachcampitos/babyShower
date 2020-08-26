@@ -175,76 +175,72 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.componentCssClass);
         }
       },
-      decls: 35,
+      decls: 44,
       vars: 3,
-      consts: [["id", "hero", 1, "hero"], ["alt", "", 1, "flags", 3, "src"], [1, "container"], [1, "main-message"], ["data-aos", "fade-up", "data-aos-duration", "1000"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "fecha"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "hora"], [1, "lugar"], ["data-aos", "fade-up", "data-aos-duration", "1000", "alt", "", 1, "meet", 3, "src"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "link-video"], ["href", "https://meet.google.com/tsr-tosk-azw", "target", "_blank", 1, "btn", "videollamada"], [1, "live"], [1, "icon", "ion-ios-videocam"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "enlace"], ["href", "https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do", "target", "_blank", 1, "btn", "regalo"], ["alt", "", 1, "gift", 3, "src"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "mensaje"]],
+      consts: [[1, "container-fluid"], [1, "row"], [1, "col"], ["alt", "", 1, "flags", 3, "src"], [1, "row", "main-message-container"], [1, "col", "text-center"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "title-page"], ["data-aos", "fade-up", "data-aos-duration", "1000"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "fecha"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "hora"], [1, "lugar"], ["data-aos", "fade-up", "data-aos-duration", "1000", "alt", "", 1, "meet", 3, "src"], ["href", "https://meet.google.com/tsr-tosk-azw", "target", "_blank", 1, "btn", "videollamada"], [1, "live"], [1, "icon", "ion-ios-videocam"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "enlace"], [1, "row", "gift-container"], ["href", "https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do", "target", "_blank", 1, "btn", "regalo"], ["alt", "", 1, "gift", 3, "src"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "mensaje"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-balloon");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-balloon");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-cone");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-cone");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-pointer");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h1", 4);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Mi Baby Shower");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "h3", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "FECHA");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h1", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Mi Baby Shower");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "h3", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " 05/12/20 ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p", 6);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " 7:00 PM ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "FECHA");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h3", 4);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " LUGAR: ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " 05/12/20 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "h2", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " GOOGLE MEET ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "img", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " 7:00 PM ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "h1", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "i", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "h2", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "PRESIONA AQU\xCD ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " Lugar: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "span");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Google Meet");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 11);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -252,25 +248,29 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p", 13);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, " Escoge un regalo presionando aqu\xED ");
-
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 14);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "img", 15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "app-pointer");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " Ingresa el c\xF3digo 629667-11 (no olvides poner el gui\xF3n) en la secci\xF3n \"Haz un Regalo\" ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "h1", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "i", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "PRESIONA AQU\xCD ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -278,9 +278,45 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "h5");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Maria Claudia y Ra\xFAl");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "p", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " Escoge un regalo presionando aqu\xED ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "img", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Ingresa el c\xF3digo 629667-11 (no olvides poner el gui\xF3n) en la secci\xF3n \"Haz un Regalo\" ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h5");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Maria Claudia y Ra\xFAl");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -288,21 +324,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
 
         if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "assets/flags.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](18);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "assets/meet.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](16);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "", ctx.baseURL, "assets/gift.svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         }
       },
       directives: [_balloon_balloon_component__WEBPACK_IMPORTED_MODULE_4__["BalloonComponent"], _cone_cone_component__WEBPACK_IMPORTED_MODULE_5__["ConeComponent"], _pointer_pointer_component__WEBPACK_IMPORTED_MODULE_6__["PointerComponent"]],
-      styles: [".active-light[_ngcontent-%COMP%] {\n  display: none;\n}\n.active-dark[_ngcontent-%COMP%] {\n  display: none;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0FBQ2Y7QUFDQTtFQUNFLGFBQWE7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFjdGl2ZS1saWdodCB7XG4gIGRpc3BsYXk6IG5vbmU7XG59XG4uYWN0aXZlLWRhcmsge1xuICBkaXNwbGF5OiBub25lO1xufVxuIl19 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"]
     });
     /*@__PURE__*/
 
@@ -1025,34 +1061,42 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     PointerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: PointerComponent,
       selectors: [["app-pointer"]],
-      decls: 9,
+      decls: 11,
       vars: 0,
-      consts: [["width", "512", "height", "512", "viewBox", "0 0 512 512", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["id", "pointer-1", "clip-path", "url(#clip0)"], ["id", "hand"], ["id", "Vector", "d", "M103.613 2.30655e-05L352.397 1.31606e-06C360.71 5.89317e-07 367.451 6.74099 367.451 15.054L367.451 86.883C367.451 95.196 360.71 101.937 352.397 101.937L220.354 101.937C212.041 101.937 205.3 95.196 205.3 86.883C205.3 78.57 212.041 71.829 220.354 71.829L337.343 71.829L337.343 30.107L118.667 30.107L118.667 71.829L147.272 71.829C155.585 71.829 162.326 78.57 162.326 86.883C162.326 95.196 155.585 101.937 147.272 101.937L103.613 101.937C95.3 101.937 88.559 95.196 88.559 86.883L88.559 15.054C88.559 6.74001 95.3 2.37922e-05 103.613 2.30655e-05Z", "fill", "#B3404A"], ["id", "Vector_2", "d", "M209.519 313.987L209.519 329.938C209.519 345.886 222.528 359.468 239.247 360.034C256.8 360.629 271.226 347.241 271.226 330.643L271.226 313.43L271.559 467.536C271.559 483.779 285.372 496.947 302.413 496.947L303.6 496.947C320.639 496.947 334.454 483.779 334.454 467.536L334.454 356.865L334.454 331.418L334.454 254.51L364.474 327.607C369.755 343.376 387.458 352.072 404.001 347.038C420.544 341.995 429.666 325.129 424.385 309.354L358.467 173.609C350.326 156.844 332.711 146.109 313.33 146.1L135.907 146.023C108.416 146.011 86.124 167.249 86.121 193.455L86.103 310.011C86.103 326.254 99.916 339.422 116.957 339.422C133.996 339.422 147.811 326.254 147.811 310.011L147.811 317C147.811 333.243 161.624 346.411 178.665 346.411C195.704 346.411 209.519 333.243 209.519 317", "fill", "#F4B2B0"], ["id", "Vector_3", "d", "M135.885 130.968C135.896 130.968 135.905 130.968 135.915 130.968L313.336 131.045C338.369 131.057 361.398 145.184 372.008 167.033L437.927 302.777C438.21 303.36 438.455 303.959 438.66 304.573C442.448 315.881 441.514 327.964 436.035 338.595C430.351 349.625 420.533 357.737 408.392 361.438C384.318 368.763 358.425 355.981 350.381 332.909L349.509 330.788L349.509 467.537C349.508 492.054 328.913 512 303.6 512L302.414 512C277.101 512 256.507 492.054 256.507 467.536L256.301 372.33C250.737 374.323 244.776 375.288 238.741 375.08C223.403 374.559 210.116 366.794 202.204 355.164C195.318 359.162 187.265 361.464 178.667 361.464C164.781 361.464 152.317 355.464 143.891 345.999C136.322 351.328 127.011 354.474 116.958 354.474C91.645 354.474 71.05 334.528 71.05 310.01L71.07 193.453C71.071 176.621 77.91 160.837 90.325 149.011C102.535 137.375 118.715 130.968 135.885 130.968ZM410.342 314.894L344.927 180.183C339.315 168.628 326.911 161.156 313.325 161.15L135.905 161.073C135.899 161.073 135.893 161.073 135.887 161.073C126.484 161.073 117.679 164.528 111.093 170.804C104.7 176.895 101.179 184.938 101.177 193.452L101.157 310.008C101.157 317.922 108.246 324.362 116.958 324.362C125.67 324.362 132.757 317.922 132.757 310.005C132.757 301.692 139.498 294.951 147.811 294.951C156.124 294.951 162.865 301.692 162.865 310.005L162.865 316.996C162.865 324.913 169.954 331.353 178.665 331.353C187.377 331.353 194.466 324.913 194.466 316.996L194.466 313.985C194.466 305.672 201.207 298.931 209.52 298.931C217.833 298.931 224.574 305.672 224.574 313.985L224.574 329.938C224.572 337.953 231.384 344.706 239.759 344.989C244.381 345.167 248.702 343.539 251.882 340.467C254.65 337.792 256.175 334.302 256.175 330.643L256.175 313.43C256.175 305.122 262.906 298.385 271.212 298.376C271.217 298.376 271.224 298.376 271.229 298.376C279.531 298.376 286.265 305.095 286.283 313.398L286.616 467.502C286.616 475.45 293.703 481.892 302.415 481.892L303.6 481.892C312.312 481.892 319.4 475.452 319.4 467.535L319.4 254.507C319.4 247.317 324.485 241.13 331.538 239.738C338.595 238.344 345.648 242.136 348.379 248.788L378.399 321.886C378.527 322.195 378.643 322.508 378.748 322.825C381.456 330.912 390.821 335.312 399.617 332.634C403.912 331.326 407.343 328.542 409.271 324.8C410.873 321.696 411.244 318.208 410.342 314.894Z", "fill", "#B3404A"], ["id", "clip0"], ["width", "512", "height", "512", "fill", "white", "transform", "translate(512 512) rotate(180)"]],
+      consts: [[1, "row"], [1, "col"], ["width", "512", "height", "512", "viewBox", "0 0 512 512", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["id", "pointer-1", "clip-path", "url(#clip0)"], ["id", "hand"], ["id", "Vector", "d", "M103.613 2.30655e-05L352.397 1.31606e-06C360.71 5.89317e-07 367.451 6.74099 367.451 15.054L367.451 86.883C367.451 95.196 360.71 101.937 352.397 101.937L220.354 101.937C212.041 101.937 205.3 95.196 205.3 86.883C205.3 78.57 212.041 71.829 220.354 71.829L337.343 71.829L337.343 30.107L118.667 30.107L118.667 71.829L147.272 71.829C155.585 71.829 162.326 78.57 162.326 86.883C162.326 95.196 155.585 101.937 147.272 101.937L103.613 101.937C95.3 101.937 88.559 95.196 88.559 86.883L88.559 15.054C88.559 6.74001 95.3 2.37922e-05 103.613 2.30655e-05Z", "fill", "#B3404A"], ["id", "Vector_2", "d", "M209.519 313.987L209.519 329.938C209.519 345.886 222.528 359.468 239.247 360.034C256.8 360.629 271.226 347.241 271.226 330.643L271.226 313.43L271.559 467.536C271.559 483.779 285.372 496.947 302.413 496.947L303.6 496.947C320.639 496.947 334.454 483.779 334.454 467.536L334.454 356.865L334.454 331.418L334.454 254.51L364.474 327.607C369.755 343.376 387.458 352.072 404.001 347.038C420.544 341.995 429.666 325.129 424.385 309.354L358.467 173.609C350.326 156.844 332.711 146.109 313.33 146.1L135.907 146.023C108.416 146.011 86.124 167.249 86.121 193.455L86.103 310.011C86.103 326.254 99.916 339.422 116.957 339.422C133.996 339.422 147.811 326.254 147.811 310.011L147.811 317C147.811 333.243 161.624 346.411 178.665 346.411C195.704 346.411 209.519 333.243 209.519 317", "fill", "#F4B2B0"], ["id", "Vector_3", "d", "M135.885 130.968C135.896 130.968 135.905 130.968 135.915 130.968L313.336 131.045C338.369 131.057 361.398 145.184 372.008 167.033L437.927 302.777C438.21 303.36 438.455 303.959 438.66 304.573C442.448 315.881 441.514 327.964 436.035 338.595C430.351 349.625 420.533 357.737 408.392 361.438C384.318 368.763 358.425 355.981 350.381 332.909L349.509 330.788L349.509 467.537C349.508 492.054 328.913 512 303.6 512L302.414 512C277.101 512 256.507 492.054 256.507 467.536L256.301 372.33C250.737 374.323 244.776 375.288 238.741 375.08C223.403 374.559 210.116 366.794 202.204 355.164C195.318 359.162 187.265 361.464 178.667 361.464C164.781 361.464 152.317 355.464 143.891 345.999C136.322 351.328 127.011 354.474 116.958 354.474C91.645 354.474 71.05 334.528 71.05 310.01L71.07 193.453C71.071 176.621 77.91 160.837 90.325 149.011C102.535 137.375 118.715 130.968 135.885 130.968ZM410.342 314.894L344.927 180.183C339.315 168.628 326.911 161.156 313.325 161.15L135.905 161.073C135.899 161.073 135.893 161.073 135.887 161.073C126.484 161.073 117.679 164.528 111.093 170.804C104.7 176.895 101.179 184.938 101.177 193.452L101.157 310.008C101.157 317.922 108.246 324.362 116.958 324.362C125.67 324.362 132.757 317.922 132.757 310.005C132.757 301.692 139.498 294.951 147.811 294.951C156.124 294.951 162.865 301.692 162.865 310.005L162.865 316.996C162.865 324.913 169.954 331.353 178.665 331.353C187.377 331.353 194.466 324.913 194.466 316.996L194.466 313.985C194.466 305.672 201.207 298.931 209.52 298.931C217.833 298.931 224.574 305.672 224.574 313.985L224.574 329.938C224.572 337.953 231.384 344.706 239.759 344.989C244.381 345.167 248.702 343.539 251.882 340.467C254.65 337.792 256.175 334.302 256.175 330.643L256.175 313.43C256.175 305.122 262.906 298.385 271.212 298.376C271.217 298.376 271.224 298.376 271.229 298.376C279.531 298.376 286.265 305.095 286.283 313.398L286.616 467.502C286.616 475.45 293.703 481.892 302.415 481.892L303.6 481.892C312.312 481.892 319.4 475.452 319.4 467.535L319.4 254.507C319.4 247.317 324.485 241.13 331.538 239.738C338.595 238.344 345.648 242.136 348.379 248.788L378.399 321.886C378.527 322.195 378.643 322.508 378.748 322.825C381.456 330.912 390.821 335.312 399.617 332.634C403.912 331.326 407.343 328.542 409.271 324.8C410.873 321.696 411.244 318.208 410.342 314.894Z", "fill", "#B3404A"], ["id", "clip0"], ["width", "512", "height", "512", "fill", "white", "transform", "translate(512 512) rotate(180)"]],
       template: function PointerComponent_Template(rf, ctx) {
         if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 0);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "svg", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "g", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "g", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "g", 2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "path", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "path", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "g", 4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "path", 5);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "path", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "path", 7);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "defs");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "clipPath", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "defs");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "rect", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "clipPath", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "rect", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1061,7 +1105,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      styles: ["#pointer-1[_ngcontent-%COMP%] {\n  -webkit-animation: hand 1s linear infinite;\n          animation: hand 1s linear infinite;\n  transform-origin: center;\n  transform-box: fill-box;\n}\n\n@-webkit-keyframes hand {\n  0% {\n    transform: translateY(-5%);\n    opacity: 1;\n  }\n  50% {\n    transform: translateY(5%);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(-5%);\n    opacity: 1;\n  }\n}\n\n@keyframes hand {\n  0% {\n    transform: translateY(-5%);\n    opacity: 1;\n  }\n  50% {\n    transform: translateY(5%);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(-5%);\n    opacity: 1;\n  }\n}\n\n@media only screen and (max-width: 1080px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 120px;\n    top: 55%;\n    right: 44%;\n  }\n}\n\n@media only screen and (max-width: 750px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 95px;\n    top: 51%;\n    right: 42%;\n  }\n}\n\n@media only screen and (max-width: 720px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 95px;\n    top: 51%;\n    right: 42%;\n  }\n}\n\n@media only screen and (max-width: 411px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 51px;\n    top: 36%;\n    right: 42%;\n  }\n}\n\n@media only screen and (max-width: 375px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 45px;\n    top: 36%;\n    right: 41%;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcG9pbnRlci9wb2ludGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQ0FBa0M7VUFBbEMsa0NBQWtDO0VBQ2xDLHdCQUF3QjtFQUN4Qix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRTtJQUNFLDBCQUEwQjtJQUMxQixVQUFVO0VBQ1o7RUFDQTtJQUNFLHlCQUF5QjtJQUN6QixVQUFVO0VBQ1o7RUFDQTtJQUNFLDBCQUEwQjtJQUMxQixVQUFVO0VBQ1o7QUFDRjs7QUFiQTtFQUNFO0lBQ0UsMEJBQTBCO0lBQzFCLFVBQVU7RUFDWjtFQUNBO0lBQ0UseUJBQXlCO0lBQ3pCLFVBQVU7RUFDWjtFQUNBO0lBQ0UsMEJBQTBCO0lBQzFCLFVBQVU7RUFDWjtBQUNGOztBQUNBO0VBQ0U7SUFDRSxrQkFBa0I7SUFDbEIsWUFBWTtJQUNaLFFBQVE7SUFDUixVQUFVO0VBQ1o7QUFDRjs7QUFDQTtFQUNFO0lBQ0Usa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxRQUFRO0lBQ1IsVUFBVTtFQUNaO0FBQ0Y7O0FBQ0E7RUFDRTtJQUNFLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsUUFBUTtJQUNSLFVBQVU7RUFDWjtBQUNGOztBQUNBO0VBQ0U7SUFDRSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLFFBQVE7SUFDUixVQUFVO0VBQ1o7QUFDRjs7QUFDQTtFQUNFO0lBQ0Usa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxRQUFRO0lBQ1IsVUFBVTtFQUNaO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9wb2ludGVyL3BvaW50ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNwb2ludGVyLTEge1xuICBhbmltYXRpb246IGhhbmQgMXMgbGluZWFyIGluZmluaXRlO1xuICB0cmFuc2Zvcm0tb3JpZ2luOiBjZW50ZXI7XG4gIHRyYW5zZm9ybS1ib3g6IGZpbGwtYm94O1xufVxuXG5Aa2V5ZnJhbWVzIGhhbmQge1xuICAwJSB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01JSk7XG4gICAgb3BhY2l0eTogMTtcbiAgfVxuICA1MCUge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSg1JSk7XG4gICAgb3BhY2l0eTogMTtcbiAgfVxuICAxMDAlIHtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUlKTtcbiAgICBvcGFjaXR5OiAxO1xuICB9XG59XG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDEwODBweCkge1xuICBzdmcge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB3aWR0aDogMTIwcHg7XG4gICAgdG9wOiA1NSU7XG4gICAgcmlnaHQ6IDQ0JTtcbiAgfVxufVxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NTBweCkge1xuICBzdmcge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB3aWR0aDogOTVweDtcbiAgICB0b3A6IDUxJTtcbiAgICByaWdodDogNDIlO1xuICB9XG59XG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDcyMHB4KSB7XG4gIHN2ZyB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHdpZHRoOiA5NXB4O1xuICAgIHRvcDogNTElO1xuICAgIHJpZ2h0OiA0MiU7XG4gIH1cbn1cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDExcHgpIHtcbiAgc3ZnIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgd2lkdGg6IDUxcHg7XG4gICAgdG9wOiAzNiU7XG4gICAgcmlnaHQ6IDQyJTtcbiAgfVxufVxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzNzVweCkge1xuICBzdmcge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB3aWR0aDogNDVweDtcbiAgICB0b3A6IDM2JTtcbiAgICByaWdodDogNDElO1xuICB9XG59XG4iXX0= */"]
+      styles: ["#pointer-1[_ngcontent-%COMP%] {\n  -webkit-animation: hand 1s linear infinite;\n          animation: hand 1s linear infinite;\n  transform-origin: center;\n  transform-box: fill-box;\n}\n\nsvg[_ngcontent-%COMP%]{\n  z-index: 2;\n}\n\n@-webkit-keyframes hand {\n  0% {\n    transform: translateY(-5%);\n    opacity: 1;\n  }\n  50% {\n    transform: translateY(5%);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(-5%);\n    opacity: 1;\n  }\n}\n\n@keyframes hand {\n  0% {\n    transform: translateY(-5%);\n    opacity: 1;\n  }\n  50% {\n    transform: translateY(5%);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(-5%);\n    opacity: 1;\n  }\n}\n\n@media only screen and (max-width: 1440px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 120px;\n    top: 55%;\n    right: 44%;\n  }\n}\n\n@media only screen and (max-width: 1080px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 90px;\n    right: 44%;\n    margin-top: -110px;\n  }\n}\n\n@media only screen and (max-width: 750px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 95px;\n    right: 42%;\n  }\n}\n\n@media only screen and (max-width: 720px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 95px;\n    right: 42%;\n  }\n}\n\n@media only screen and (max-width: 411px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 51px;\n    right: 42%;\n    margin-top: -50px;\n  }\n}\n\n@media only screen and (max-width: 375px) {\n  svg[_ngcontent-%COMP%] {\n    position: absolute;\n    width: 45px;\n    right: 41%;\n    margin-top: -157px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcG9pbnRlci9wb2ludGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQ0FBa0M7VUFBbEMsa0NBQWtDO0VBQ2xDLHdCQUF3QjtFQUN4Qix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRTtJQUNFLDBCQUEwQjtJQUMxQixVQUFVO0VBQ1o7RUFDQTtJQUNFLHlCQUF5QjtJQUN6QixVQUFVO0VBQ1o7RUFDQTtJQUNFLDBCQUEwQjtJQUMxQixVQUFVO0VBQ1o7QUFDRjs7QUFiQTtFQUNFO0lBQ0UsMEJBQTBCO0lBQzFCLFVBQVU7RUFDWjtFQUNBO0lBQ0UseUJBQXlCO0lBQ3pCLFVBQVU7RUFDWjtFQUNBO0lBQ0UsMEJBQTBCO0lBQzFCLFVBQVU7RUFDWjtBQUNGOztBQUVBO0VBQ0U7SUFDRSxrQkFBa0I7SUFDbEIsWUFBWTtJQUNaLFFBQVE7SUFDUixVQUFVO0VBQ1o7QUFDRjs7QUFFQTtFQUNFO0lBQ0Usa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxVQUFVO0lBQ1Ysa0JBQWtCO0VBQ3BCO0FBQ0Y7O0FBQ0E7RUFDRTtJQUNFLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsVUFBVTtFQUNaO0FBQ0Y7O0FBQ0E7RUFDRTtJQUNFLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsVUFBVTtFQUNaO0FBQ0Y7O0FBQ0E7RUFDRTtJQUNFLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsVUFBVTtJQUNWLGlCQUFpQjtFQUNuQjtBQUNGOztBQUNBO0VBQ0U7SUFDRSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLFVBQVU7SUFDVixrQkFBa0I7RUFDcEI7QUFDRiIsImZpbGUiOiJzcmMvYXBwL3BvaW50ZXIvcG9pbnRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI3BvaW50ZXItMSB7XG4gIGFuaW1hdGlvbjogaGFuZCAxcyBsaW5lYXIgaW5maW5pdGU7XG4gIHRyYW5zZm9ybS1vcmlnaW46IGNlbnRlcjtcbiAgdHJhbnNmb3JtLWJveDogZmlsbC1ib3g7XG59XG5cbnN2Z3tcbiAgei1pbmRleDogMjtcbn1cblxuQGtleWZyYW1lcyBoYW5kIHtcbiAgMCUge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNSUpO1xuICAgIG9wYWNpdHk6IDE7XG4gIH1cbiAgNTAlIHtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoNSUpO1xuICAgIG9wYWNpdHk6IDE7XG4gIH1cbiAgMTAwJSB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01JSk7XG4gICAgb3BhY2l0eTogMTtcbiAgfVxufVxuXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDE0NDBweCkge1xuICBzdmcge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB3aWR0aDogMTIwcHg7XG4gICAgdG9wOiA1NSU7XG4gICAgcmlnaHQ6IDQ0JTtcbiAgfVxufVxuXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDEwODBweCkge1xuICBzdmcge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB3aWR0aDogOTBweDtcbiAgICByaWdodDogNDQlO1xuICAgIG1hcmdpbi10b3A6IC0xMTBweDtcbiAgfVxufVxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NTBweCkge1xuICBzdmcge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB3aWR0aDogOTVweDtcbiAgICByaWdodDogNDIlO1xuICB9XG59XG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDcyMHB4KSB7XG4gIHN2ZyB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHdpZHRoOiA5NXB4O1xuICAgIHJpZ2h0OiA0MiU7XG4gIH1cbn1cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDExcHgpIHtcbiAgc3ZnIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgd2lkdGg6IDUxcHg7XG4gICAgcmlnaHQ6IDQyJTtcbiAgICBtYXJnaW4tdG9wOiAtNTBweDtcbiAgfVxufVxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzNzVweCkge1xuICBzdmcge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB3aWR0aDogNDVweDtcbiAgICByaWdodDogNDElO1xuICAgIG1hcmdpbi10b3A6IC0xNTdweDtcbiAgfVxufVxuIl19 */"]
     });
     /*@__PURE__*/
 

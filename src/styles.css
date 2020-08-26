@@ -11,9 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  width: 100%;
-  height: 100vh;
-  background: #e5ea93;
+  background: #e5ea93 !important;
   transition: background 500ms ease-in-out, color 1000ms ease-in-out;
   overflow-x: hidden;
   font-family: "Raleway";
@@ -21,14 +19,6 @@ body {
 
 body::-webkit-scrollbar {
   width: 0.25rem;
-}
-
-body::-webkit-scrollbar-track {
-  background: var(--gray5);
-}
-
-body::-webkit-scrollbar-thumb {
-  background: var(--gray4);
 }
 :root {
   font-size: 16px;
@@ -83,749 +73,180 @@ section {
   padding: 5rem 0;
   height: 100vh;
 }
-.container {
-  width: 100%;
-  max-width: 98rem;
-  margin: 0 auto;
-  padding: 0 1.5rem;
+.flags {
   position: absolute;
-  left: 8%;
-  bottom: 31%;
-}
-
-.hero {
-  position: relative;
-  background: url(./assets/wave.svg);
-  color: #fff;
-  text-align: justify;
-  overflow: hidden;
-  background-size: cover;
+  top: 6px;
+  left: 9px;
   width: 100%;
-  height: 0;
-  padding-bottom: calc(60% * 3 / 4);
-  transition: var(--transition-speed);
-  transition: background 650ms ease-in-out;
 }
 
-.main-message {
-  width: 100%;
-  max-width: 50rem;
-  color: var(--gray4);
-  text-transform: uppercase;
-  transform: translateY(20%);
-  transition: var(--transition-speed);
-  margin-top: 11rem;
+.main-message-container{
+  padding-top: 48px;
 }
 
-.main-message h3 {
-  font-size: 1.6rem;
-}
-.main-message h1 {
+.title-page {
   font-family: "Parisienne", cursive;
   text-transform: capitalize;
   font-size: 4rem;
   margin: 1rem 0;
 }
-.main-message p {
-  text-transform: none;
-  font-size: 1.5rem;
-}
-.live {
-  display: inline-block;
-  font-family: "Raleway" !important;
-}
-.btn {
-  border-radius: 2rem;
-  color: var(--smoke);
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 0.5rem 1.5rem;
-  text-transform: uppercase;
+
+
+.container-fluid{
+  position: relative;
+  background: url(./assets/wave-2.svg);
+  color: var(--gray5);
+  text-align: justify;
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: calc(60% * 5 / 2);
   transition: var(--transition-speed);
-}
-.btn i {
-  font-size: 35px;
-}
-.btn:hover {
-}
-.btn:hover span {
-  display: inline-block;
-  transform: scale(0.98);
-}
-.videollamada {
-  margin-bottom: 30px;
+  transition: background 650ms ease-in-out;
 }
 
-h5 {
-  position: absolute;
+.gift-container{
+  margin-top: 20px;
+}
+
+.gift-container img{
+  margin-top: 100px;
+  width: 270px;
+}
+
+h5{
   font-family: "Parisienne", cursive;
-  bottom: 1%;
-  right: 3%;
-  color: var(--gray4);
-  font-size: 2.5rem;
+  text-transform: capitalize;
+  position: fixed;
+  right: 16px;
+  font-size: 30px !important;
+  bottom: 0;
 }
 
-@media only screen and (max-width: 1000px) {
-  .hero {
-    position: relative;
-    background: url(./assets/wave.svg);
-    color: #fff;
-    text-align: justify;
-    overflow: hidden;
-    background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-bottom: calc(60% * 3 / 2);
-    transition: var(--transition-speed);
-    transition: background 650ms ease-in-out;
-  }
+.meet{
+  width: 28px;
 }
+
+.fecha {
+  font-size: 60px !important;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+.hora {
+  font-size: 60px !important;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+.lugar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.lugar span{
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.live{
+  font-size: 25px;
+  margin-top: -10px;
+  color: white;
+  background: #e7305b;
+  padding: 5px;
+  letter-spacing: 3px;
+}
+
+/* Media Querys */
+@media only screen and (min-width: 1081px) {
+}
+
 @media only screen and (max-width: 1080px) {
-  body {
-    background: #e5ea93;
-  }
 
-  .container {
-    padding: 0 2.5rem;
-    position: absolute;
-    bottom: 43%;
-    left: 0%;
-  }
-  .main-message {
-    font-size: 12px;
-    max-width: 90rem !important;
-  }
-
-  .main-message h3 {
-    font-size: 3.4rem;
-    margin: 1rem 0;
-    text-align: center;
-  }
-  .main-message h1 {
-    font-size: 7.9rem;
-    text-align: center;
-  }
-  .main-message p {
-    text-transform: none;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .enlace {
-    font-size: 3rem !important;
-    font-weight: bold;
-  }
-  .mensaje {
-    font-size: 40px !important;
-    font-weight: bold;
-    position: absolute;
-    top: 131%;
-  }
-  .hero {
-    position: relative;
-    background: url(./assets/wave-2.svg);
-    color: #fff;
-    text-align: justify;
-    overflow: hidden;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    padding-bottom: calc(60% * 5 / 2);
-    transition: var(--transition-speed);
-    transition: background 650ms ease-in-out;
-  }
-  .btn {
-    font-size: 12px;
-    margin: 10px 0 24px 100px;
-    padding: 0.5rem 1rem;
-  }
-  .btn i {
-    font-size: 70px;
-  }
-  h5 {
-    font-size: 2rem;
-  }
-
-  .flags {
-    width: 1050px !important;
-    position: absolute;
-    top: 6px;
-    left: 9px;
-  }
-  .live {
-    font-size: 70px !important;
-    color: white;
-    background: #e7305b;
-    padding: 10px 10px;
-    position: absolute;
-    border-radius: 5px;
-    left: 7%;
-    width: 845px;
-  }
-  .live i {
-    margin: 0 60px 0 0;
-  }
-  .videollamada {
-    margin: 10px 0 24px 40px !important;
-  }
-  .link-video {
-    margin-bottom: 115px;
-  }
-  .gift {
-    width: 410px;
-    position: absolute;
-    left: 30%;
-    top: 100%;
-  }
-  .fecha {
-    font-size: 155px !important;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
-  }
-  .hora {
-    font-size: 155px !important;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
-  }
-  .lugar {
-    display: flex;
-    margin: 35px 0 0 45px;
-  }
-  .lugar h3 {
-    margin-left: 30px;
-  }
-  .lugar h2 {
-    font-size: 75px;
-    margin-left: 33px;
-  }
-  .meet {
-    width: 70px;
-    margin-left: 15px;
-  }
-  .regalo {
-    margin-top: 50px;
-  }
 }
 @media only screen and (max-width: 750px) {
-  body {
-    background: #e5ea93;
-  }
 
-  .container {
-    padding: 0 2.5rem;
-    position: absolute;
-    bottom: 40%;
-    left: 1%;
-  }
-  .main-message {
-    font-size: 12px;
-  }
-
-  .main-message h3 {
-    font-size: 1.9rem;
-    margin: 1rem 0;
-    text-align: center;
-  }
-  .main-message h1 {
-    font-size: 5.9rem;
-    text-align: center;
-  }
-  .main-message p {
-    text-transform: none;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .enlace {
-    font-size: 2rem !important;
-    font-weight: bold;
-  }
-  .mensaje {
-    font-size: 25px !important;
-    font-weight: bold;
-    position: absolute;
-    top: 126%;
-  }
-  .hero {
-    position: relative;
-    background: url(./assets/wave-2.svg);
-    color: #fff;
-    text-align: justify;
-    overflow: hidden;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    padding-bottom: calc(60% * 5 / 2);
-    transition: var(--transition-speed);
-    transition: background 650ms ease-in-out;
-  }
-  .btn {
-    font-size: 12px;
-    margin: 10px 0 24px 100px;
-    padding: 0.5rem 1rem;
-  }
-  .btn i {
-    font-size: 45px;
-  }
-  h5 {
-    font-size: 2rem;
-  }
-
-  .flags {
-    width: 735px !important;
-    position: absolute;
-    top: 6px;
-    left: 9px;
-  }
-  .live {
-    font-size: 48px !important;
-    color: white;
-    background: #e7305b;
-    padding: 10px 10px;
-    position: absolute;
-    border-radius: 5px;
-    left: 7%;
-    width: 560px;
-  }
-  .live i {
-    margin: 0 28px 0 0;
-  }
-  .videollamada {
-    margin: 10px 0 24px 40px !important;
-  }
-  .link-video {
-    margin-bottom: 80px;
-  }
-  .gift {
-    width: 256px;
-    position: absolute;
-    left: 30%;
-    top: 100%;
-  }
-  .fecha {
-    font-size: 95px !important;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
-  }
-  .hora {
-    font-size: 95px !important;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
-  }
-  .lugar {
-    display: flex;
-    margin: 35px 0 0 10px;
-  }
-  .lugar h3 {
-    margin-left: 30px;
-  }
-  .lugar h2 {
-    font-size: 55px;
-    padding: 4px;
-    margin-left: 33px;
-  }
-  .meet {
-    width: 30px;
-  }
-  .regalo {
-    margin-top: 50px;
-  }
 }
 @media only screen and (max-width: 720px) {
-  body {
-    background: #e5ea93;
+  .main-message-container{
+    padding-top: 75px;
+  }
+  .title-page{
+    font-size: 50px !important;
   }
 
-  .container {
-    padding: 0 2.5rem;
-    position: absolute;
-    bottom: 40%;
-    left: 1%;
-  }
-  .main-message {
-    font-size: 12px;
-  }
-
-  .main-message h3 {
-    font-size: 1.9rem;
-    margin: 1rem 0;
-    text-align: center;
-  }
-  .main-message h1 {
-    font-size: 5.6rem;
-    text-align: center;
-  }
-  .main-message p {
-    text-transform: none;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .enlace {
-    font-size: 2rem !important;
-    font-weight: bold;
-  }
-  .mensaje {
-    font-size: 25px !important;
-    font-weight: bold;
-    position: absolute;
-    top: 126%;
-  }
-  .hero {
-    position: relative;
-    background: url(./assets/wave-2.svg);
-    color: #fff;
-    text-align: justify;
-    overflow: hidden;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    padding-bottom: calc(60% * 5 / 2);
-    transition: var(--transition-speed);
-    transition: background 650ms ease-in-out;
-  }
-  .btn {
-    font-size: 12px;
-    margin: 10px 0 24px 100px;
-    padding: 0.5rem 1rem;
-  }
-  .btn i {
-    font-size: 45px;
-  }
-  h5 {
-    font-size: 2rem;
-  }
-
-  .flags {
-    width: 705px !important;
-    position: absolute;
-    top: 6px;
-    left: 9px;
-  }
-  .live {
-    font-size: 48px !important;
-    color: white;
-    background: #e7305b;
-    padding: 10px 10px;
-    position: absolute;
-    border-radius: 5px;
-    left: 9%;
-    width: 515px;
-  }
-  .live i {
-    margin: 0 28px 0 0;
-  }
-  .videollamada {
-    margin: 10px 0 24px 40px !important;
-  }
-  .link-video {
-    margin-bottom: 80px;
-  }
-  .gift {
-    width: 256px;
-    position: absolute;
-    left: 30%;
-    top: 100%;
-  }
-  .fecha {
-    font-size: 95px !important;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
-  }
-  .hora {
-    font-size: 95px !important;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
-  }
-  .lugar {
-    display: flex;
-    margin: 35px 0 0 10px;
-  }
-  .lugar h3 {
-    margin-left: 30px;
-  }
-  .lugar h2 {
-    font-size: 50px;
-    padding: 4px;
-    margin-left: 33px;
-  }
-  .meet {
-    width: 30px;
-  }
-  .regalo {
-    margin-top: 50px;
-  }
 }
 @media only screen and (max-width: 411px) {
-  body {
-    background: #e5ea93;
+  .main-message-container{
+    padding-top: 58px;
   }
-
-  .container {
-    padding: 0 2.5rem;
-    position: absolute;
-    bottom: 25%;
-    left: 1%;
-  }
-  .main-message {
-    font-size: 12px;
-  }
-
-  .main-message h3 {
-    font-size: 0.9rem;
-    margin: 1rem 0;
-    text-align: center;
-  }
-  .main-message h1 {
-    font-size: 2.6rem;
-    text-align: center;
-  }
-  .main-message p {
-    text-transform: none;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .enlace {
-    font-size: 1rem;
-    font-weight: bold;
-  }
-  .mensaje {
-    font-size: 16px !important;
-    font-weight: bold;
-    margin-top: 80px;
-  }
-  .hero {
-    position: relative;
-    background: url(./assets/wave-2.svg);
-    color: #fff;
-    text-align: justify;
-    overflow: hidden;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    padding-bottom: calc(60% * 5 / 2);
-    transition: var(--transition-speed);
-    transition: background 650ms ease-in-out;
-  }
-  .btn {
-    font-size: 12px;
-    margin: 10px 0 24px 100px;
-    padding: 0.5rem 1rem;
-  }
-  .btn i {
-    font-size: 20px;
-  }
-  h5 {
-    font-size: 1rem;
-  }
-
-  .flags {
-    position: absolute;
-    top: 10px;
-    left: 6px;
-    width: 400px;
-  }
-  .balloon {
-    position: absolute;
-    width: 272px;
-    top: 9%;
-    left: 43%;
-    opacity: 0.3;
-  }
-  .cone {
-    position: absolute;
-    width: 350px;
-    top: 59%;
-    right: 38%;
-    opacity: 0.3;
-  }
-  .live {
-    font-size: 25px !important;
-    color: white;
-    background: #e7305b;
-    padding: 5px 10px;
-    position: absolute;
-    border-radius: 5px;
-    left: 2%;
-    width: 310px;
-  }
-  .live i {
-    margin: 0 13px 0 0;
-  }
-  .videollamada {
-    margin: 10px 0 24px 40px !important;
-  }
-  .link-video {
-    margin-bottom: 25px;
-  }
-  .gift {
-    width: 135px;
-    position: absolute;
-    left: 30%;
-  }
-  .fecha {
+  .title-page{
     font-size: 50px !important;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
   }
-  .hora {
-    font-size: 50px !important;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
-  }
-  .lugar {
-    display: flex;
-    margin-left: 35px;
-  }
-  .lugar h2 {
-    font-size: 22px;
-    padding: 10px;
-  }
-  .meet {
-    width: 30px;
-  }
-  .regalo {
-    margin-top: 50px;
-  }
+
 }
-
 @media only screen and (max-width: 375px) {
-  body {
-    background: #e5ea93;
+  .main-message-container{
+    padding-top: 58px;
+  }
+  .title-page{
+    font-size: 36px !important;
   }
 
-  .container {
-    padding: 0 2.5rem;
-    position: absolute;
-    bottom: 25%;
-    left: 1%;
-  }
-  .main-message {
-    font-size: 12px;
-  }
-
-  .main-message h3 {
-    font-size: 0.9rem;
-    margin: 1rem 0;
-    text-align: center;
-  }
-  .main-message h1 {
-    font-size: 2.6rem;
-    text-align: center;
-  }
-  .main-message p {
-    text-transform: none;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .enlace {
-    font-size: 1rem;
-    font-weight: bold;
-  }
-  .mensaje {
-    font-size: 16px !important;
-    font-weight: bold;
-    margin-top: 80px;
-  }
-  .hero {
-    position: relative;
-    background: url(./assets/wave-2.svg);
-    color: #fff;
-    text-align: justify;
-    overflow: hidden;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    padding-bottom: calc(60% * 5 / 2);
-    transition: var(--transition-speed);
-    transition: background 650ms ease-in-out;
-  }
-  .btn {
-    font-size: 12px;
-    margin: 10px 0 24px 100px;
-    padding: 0.5rem 1rem;
-  }
-  .btn i {
-    font-size: 20px;
-  }
-  h5 {
-    font-size: 1rem;
-  }
-
-  .flags {
-    position: absolute;
-    top: 10px;
-    left: 6px;
-    width: 365px;
-  }
-  .balloon {
-    position: absolute;
-    width: 272px;
-    top: 9%;
-    left: 43%;
-    opacity: 0.3;
-  }
-  .cone {
-    position: absolute;
-    width: 350px;
-    top: 59%;
-    right: 38%;
-    opacity: 0.3;
-  }
-  .live {
-    font-size: 25px !important;
-    color: white;
-    background: #e7305b;
-    padding: 5px 10px;
-    position: absolute;
-    border-radius: 5px;
-    left: 5%;
-    width: 260px;
-  }
-  .live i {
-    margin: 0 13px 0 0;
-  }
-  .videollamada {
-    margin: 10px 0 24px 40px !important;
-  }
-  .link-video {
-    margin-bottom: 25px;
-  }
-  .gift {
-    width: 135px;
-    position: absolute;
-    left: 30%;
-  }
   .fecha {
-    font-size: 50px !important;
+    font-size: 40px !important;
     border-radius: 10px;
     padding: 5px;
     font-weight: bold;
+    margin-top: -15px;
   }
   .hora {
-    font-size: 50px !important;
+    font-size: 40px !important;
     border-radius: 10px;
     padding: 5px;
     font-weight: bold;
+    margin-top: -42px;
   }
   .lugar {
     display: flex;
-    margin-left: 22px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -12px;
   }
-  .lugar h2 {
-    font-size: 22px;
-    padding: 10px;
+
+  .live{
+    font-size: 25px;
+    margin-top: -10px;
+    color: white;
+    background: #e7305b;
+    padding: 5px;
+    letter-spacing: 3px;
   }
-  .meet {
-    width: 30px;
+
+  .live i{
+    margin-right: 10px;
   }
-  .regalo {
-    margin-top: 50px;
+
+  .enlace{
+    margin-top: -12px;
+  }
+
+  .lugar span{
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .gift-container img{
+    margin-top: 10px;
+    width: 185px;
+  }
+
+  h5{
+    font-size: 25px !important;
   }
 }

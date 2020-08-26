@@ -4,6 +4,10 @@
   transform-box: fill-box;
 }
 
+svg{
+  z-index: 2;
+}
+
 @keyframes hand {
   0% {
     transform: translateY(-5%);
@@ -18,7 +22,8 @@
     opacity: 1;
   }
 }
-@media only screen and (max-width: 1080px) {
+
+@media only screen and (max-width: 1440px) {
   svg {
     position: absolute;
     width: 120px;
@@ -26,11 +31,19 @@
     right: 44%;
   }
 }
+
+@media only screen and (max-width: 1080px) {
+  svg {
+    position: absolute;
+    width: 90px;
+    right: 44%;
+    margin-top: -110px;
+  }
+}
 @media only screen and (max-width: 750px) {
   svg {
     position: absolute;
     width: 95px;
-    top: 51%;
     right: 42%;
   }
 }
@@ -38,7 +51,6 @@
   svg {
     position: absolute;
     width: 95px;
-    top: 51%;
     right: 42%;
   }
 }
@@ -46,15 +58,15 @@
   svg {
     position: absolute;
     width: 51px;
-    top: 36%;
     right: 42%;
+    margin-top: -50px;
   }
 }
 @media only screen and (max-width: 375px) {
   svg {
     position: absolute;
     width: 45px;
-    top: 36%;
     right: 41%;
+    margin-top: -157px;
   }
 }

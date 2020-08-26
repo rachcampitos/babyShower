@@ -1,11 +1,16 @@
-<section id="hero" class="hero">
-  <img class="flags" src="{{ baseURL }}assets/flags.svg" alt="" />
+<div class="container-fluid">
+
   <app-balloon></app-balloon>
   <app-cone></app-cone>
-  <app-pointer></app-pointer>
-  <div class="container">
-    <div class="main-message">
-      <h1 data-aos="fade-up" data-aos-duration="1000">Mi Baby Shower</h1>
+  <div class="row">
+    <div class="col">
+      <img class="flags" src="{{ baseURL }}assets/flags.svg" alt=""/>
+    </div>
+  </div>
+
+  <div class="row main-message-container">
+    <div class="col text-center">
+      <h1 data-aos="fade-up" data-aos-duration="1000" class="title-page">Mi Baby Shower</h1>
       <h3 data-aos="fade-up" data-aos-duration="1000">FECHA</h3>
       <p class="fecha" data-aos="fade-up" data-aos-duration="1000">
         05/12/20
@@ -13,42 +18,43 @@
       <p class="hora" data-aos="fade-up" data-aos-duration="1000">
         7:00 PM
       </p>
-      <div class="lugar">
-        <h3 data-aos="fade-up" data-aos-duration="1000">
-          LUGAR:
-        </h3>
-        <h2 data-aos="fade-up" data-aos-duration="1000">
-          GOOGLE MEET
-        </h2>
-        <img
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          class="meet"
-          src="{{ baseURL }}assets/meet.svg"
-          alt=""
-        />
+      <div class="row">
+        <div class="col">
+          <div class="lugar">
+            <h2 data-aos="fade-up" data-aos-duration="1000">
+              Lugar: <span>Google Meet</span> <img data-aos="fade-up" data-aos-duration="1000" class="meet"
+                                                   src="{{ baseURL }}assets/meet.svg" alt=""/>
+            </h2>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <app-pointer></app-pointer>
+        </div>
       </div>
 
-      <div class="link-video" data-aos="fade-up" data-aos-duration="1000">
-        <a
-          href="https://meet.google.com/tsr-tosk-azw"
-          class="btn videollamada"
-          target="_blank"
-          ><h1 class="live">
-            <i class="icon ion-ios-videocam"></i>PRESIONA AQUÍ
-          </h1></a
-        >
+      <div class="row">
+        <div class="col">
+          <a href="https://meet.google.com/tsr-tosk-azw" class="btn videollamada" target="_blank">
+            <h1 class="live">
+              <i class="icon ion-ios-videocam"></i>PRESIONA AQUÍ
+            </h1>
+          </a>
+        </div>
       </div>
+
       <p class="enlace" data-aos="fade-up" data-aos-duration="1000">
         Escoge un regalo presionando aquí
       </p>
-      <div data-aos="fade-up" data-aos-duration="1000">
-        <a
-          href="https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do"
-          class="btn regalo"
-          target="_blank"
-          ><img class="gift" src="{{ baseURL }}assets/gift.svg" alt=""
-        /></a>
+      <div class="row gift-container">
+        <div class="col">
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <a href="https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do" class="btn regalo"
+               target="_blank"><img class="gift" src="{{ baseURL }}assets/gift.svg" alt=""/></a>
+          </div>
+        </div>
       </div>
       <p class="mensaje" data-aos="fade-up" data-aos-duration="1000">
         Ingresa el código 629667-11 (no olvides poner el guión) en la sección
@@ -56,6 +62,7 @@
       </p>
     </div>
   </div>
-  <!-- <app-hero1></app-hero1> -->
+
   <h5>Maria Claudia y Raúl</h5>
-</section>
+
+</div>

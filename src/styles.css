@@ -120,6 +120,7 @@ h5 {
   right: 16px;
   font-size: 30px !important;
   bottom: 0;
+  position: absolute;
 }
 
 .meet {

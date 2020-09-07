@@ -80,7 +80,7 @@ section {
   width: 100%;
 }
 
-.main-message-container{
+.main-message-container {
   padding-top: 48px;
 }
 
@@ -91,8 +91,7 @@ section {
   margin: 1rem 0;
 }
 
-
-.container-fluid{
+.container-fluid {
   position: relative;
   background: url(./assets/wave-2.svg);
   color: var(--gray5);
@@ -106,25 +105,24 @@ section {
   transition: background 650ms ease-in-out;
 }
 
-.gift-container{
+.gift-container {
   margin-top: 20px;
 }
 
-.gift-container img{
+.gift-container img {
   margin-top: 100px;
   width: 270px;
 }
 
-h5{
+h5 {
   font-family: "Parisienne", cursive;
   text-transform: capitalize;
-  position: fixed;
   right: 16px;
   font-size: 30px !important;
   bottom: 0;
 }
 
-.meet{
+.meet {
   width: 28px;
 }
 
@@ -147,12 +145,12 @@ h5{
   width: 100%;
 }
 
-.lugar span{
+.lugar span {
   font-weight: bold;
   margin-right: 10px;
 }
 
-.live{
+.live {
   font-size: 25px;
   margin-top: -10px;
   color: white;
@@ -166,34 +164,30 @@ h5{
 }
 
 @media only screen and (max-width: 1080px) {
-
 }
 @media only screen and (max-width: 750px) {
-
 }
 @media only screen and (max-width: 720px) {
-  .main-message-container{
+  .main-message-container {
     padding-top: 75px;
   }
-  .title-page{
+  .title-page {
     font-size: 50px !important;
   }
-
 }
 @media only screen and (max-width: 411px) {
-  .main-message-container{
+  .main-message-container {
     padding-top: 58px;
   }
-  .title-page{
+  .title-page {
     font-size: 50px !important;
   }
-
 }
 @media only screen and (max-width: 375px) {
-  .main-message-container{
+  .main-message-container {
     padding-top: 58px;
   }
-  .title-page{
+  .title-page {
     font-size: 36px !important;
   }
 
@@ -219,7 +213,7 @@ h5{
     margin-top: -12px;
   }
 
-  .live{
+  .live {
     font-size: 25px;
     margin-top: -10px;
     color: white;
@@ -228,25 +222,25 @@ h5{
     letter-spacing: 3px;
   }
 
-  .live i{
+  .live i {
     margin-right: 10px;
   }
 
-  .enlace{
+  .enlace {
     margin-top: -12px;
   }
 
-  .lugar span{
+  .lugar span {
     font-weight: bold;
     margin-right: 10px;
   }
 
-  .gift-container img{
+  .gift-container img {
     margin-top: 10px;
     width: 185px;
   }
 
-  h5{
+  h5 {
     font-size: 25px !important;
   }
 }

@@ -97,7 +97,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_click_HostBindingHandler($event) { return ctx.ngOnInit($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveDocument"]);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.componentCssClass);
-    } }, decls: 44, vars: 3, consts: [[1, "container-fluid"], [1, "row"], [1, "col"], ["alt", "", 1, "flags", 3, "src"], [1, "row", "main-message-container"], [1, "col", "text-center"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "title-page"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "fecha"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "hora"], [1, "lugar"], ["data-aos", "fade-up", "data-aos-duration", "1000"], ["data-aos", "fade-up", "data-aos-duration", "1000", "alt", "", 1, "meet", 3, "src"], ["href", "https://meet.google.com/tsr-tosk-azw", "target", "_blank", 1, "btn", "videollamada"], ["data-aos", "zoom-in", "data-aos-duration", "1000", 1, "live"], [1, "icon", "ion-ios-videocam"], [1, "enlace"], [1, "row", "gift-container"], ["href", "https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do", "target", "_blank", 1, "btn", "regalo"], ["alt", "", 1, "gift", 3, "src"], [1, "mensaje"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 45, vars: 3, consts: [[1, "container-fluid"], [1, "row"], [1, "col"], ["alt", "", 1, "flags", 3, "src"], [1, "row", "main-message-container"], [1, "col", "text-center"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "title-page"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "fecha"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "hora"], [1, "lugar"], ["data-aos", "fade-up", "data-aos-duration", "1000"], ["data-aos", "fade-up", "data-aos-duration", "1000", "alt", "", 1, "meet", 3, "src"], ["href", "https://meet.google.com/tsr-tosk-azw", "target", "_blank", 1, "btn", "videollamada"], ["data-aos", "zoom-in", "data-aos-duration", "1000", 1, "live"], [1, "icon", "ion-ios-videocam"], [1, "enlace"], [1, "row", "gift-container"], ["href", "https://www.noviosfalabella.com.pe/novios-pe/public/inicio.do", "target", "_blank", 1, "btn", "regalo"], ["alt", "", 1, "gift", 3, "src"], [1, "mensaje"], [1, "pie"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-balloon");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-cone");
@@ -165,8 +165,10 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Maria Claudia y Ra\u00FAl");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Maria Claudia y Ra\u00FAl");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {

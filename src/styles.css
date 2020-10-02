@@ -153,11 +153,12 @@ h5 {
 
 .live {
   font-size: 25px;
-  margin-top: -10px;
+  margin-top: 0px;
   color: white;
   background: #e7305b;
-  padding: 5px;
+  padding: 15px;
   letter-spacing: 3px;
+  border-radius: 5px;
 }
 
 /* Media Querys */

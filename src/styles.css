@@ -113,14 +113,14 @@ section {
   margin-top: 100px;
   width: 270px;
 }
-
+.pie {
+  display: flex;
+  justify-content: flex-end;
+}
 h5 {
   font-family: "Parisienne", cursive;
   text-transform: capitalize;
-  right: 16px;
   font-size: 30px !important;
-  bottom: 0;
-  position: absolute;
 }
 
 .meet {

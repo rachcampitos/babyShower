@@ -154,9 +154,11 @@ h5 {
   margin-top: 0px;
   color: white;
   background: #e7305b;
-  padding: 15px;
-  letter-spacing: 3px;
-  border-radius: 5px;
+  padding: 15px 35px;
+  border-radius: 20px;
+}
+.live i {
+  margin-right: 20px;
 }
 
 /* Media Querys */

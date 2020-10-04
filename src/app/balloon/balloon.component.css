@@ -59,9 +59,9 @@
 @media only screen and (max-width: 750px) {
   svg {
     position: absolute;
-    width: 505px;
+    width: 375px;
     height: 698px;
-    top: 6%;
+    top: 0%;
     left: 39%;
     opacity: 0.3;
   }
@@ -69,9 +69,9 @@
 @media only screen and (max-width: 720px) {
   svg {
     position: absolute;
-    width: 505px;
+    width: 375px;
     height: 698px;
-    top: 6%;
+    top: 0%;
     left: 39%;
     opacity: 0.3;
   }

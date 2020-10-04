@@ -88,7 +88,7 @@ section {
   font-family: "Parisienne", cursive;
   text-transform: capitalize;
   font-size: 4rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .container-fluid {
@@ -110,8 +110,8 @@ section {
 }
 
 .gift-container img {
-  margin-top: 100px;
-  width: 270px;
+  margin-top: 50px;
+  width: 200px;
 }
 .pie {
   display: flex;
@@ -128,15 +128,13 @@ h5 {
 }
 
 .fecha {
-  font-size: 60px !important;
+  font-size: 50px !important;
   border-radius: 10px;
-  padding: 5px;
   font-weight: bold;
 }
 .hora {
-  font-size: 60px !important;
+  font-size: 50px !important;
   border-radius: 10px;
-  padding: 5px;
   font-weight: bold;
 }
 .lugar {

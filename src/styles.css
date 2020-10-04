@@ -179,6 +179,10 @@ h5 {
   .main-message-container {
     padding-top: 58px;
   }
+  .gift-container img {
+    margin-top: 15px;
+    width: 150px;
+  }
   .title-page {
     font-size: 50px !important;
   }

@@ -58,7 +58,7 @@ svg {
 @media only screen and (max-width: 720px) {
   svg {
     position: absolute;
-    width: 95px;
+    width: 60px;
     right: 42%;
   }
 }
@@ -67,7 +67,7 @@ svg {
     position: absolute;
     width: 51px;
     right: 42%;
-    margin-top: -50px;
+    margin-top: -115px;
   }
 }
 @media only screen and (max-width: 375px) {

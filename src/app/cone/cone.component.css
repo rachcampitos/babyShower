@@ -103,10 +103,10 @@
 @media only screen and (max-width: 375px) {
   svg {
     position: absolute;
-    width: 345px;
-    top: 50%;
+    width: 275px;
+    top: 23%;
     height: 430px;
-    right: 34%;
+    right: 40%;
     opacity: 0.3;
   }
 }

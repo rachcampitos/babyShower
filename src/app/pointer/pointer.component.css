@@ -38,7 +38,6 @@ svg {
     width: 120px;
     top: 55%;
     right: 44%;
-    display: block;
   }
 }
 
@@ -55,6 +54,7 @@ svg {
     position: absolute;
     width: 95px;
     right: 42%;
+    display: block;
   }
 }
 @media only screen and (max-width: 720px) {

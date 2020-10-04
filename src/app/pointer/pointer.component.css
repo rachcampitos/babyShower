@@ -38,6 +38,7 @@ svg {
     width: 120px;
     top: 55%;
     right: 44%;
+    display: block;
   }
 }
 
